@@ -15,7 +15,7 @@ import aiRoutes from "./routes/aiRoutes.js";  // at the top
                   // with other app.use() lines
 
 dotenv.config();
-console.log("GEMINI KEY:", process.env.GEMINI_API_KEY);
+
 
 const app = express();
 
